@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app/js/curso-config.js"></script>
+    <script src="app/js/controller/index-controller.js"></script>
+
+</head>
+
+<body ng-app="curso">
+    <div ng-controller="IndexController">
+        <span ng-bind="nome"></span>
+
+        <input type="text" ng-model="nome"/>
+
+        <button ng-click="testeFuncao()">Teste Clique</button>
+    </div>
+</body>
+</html>
