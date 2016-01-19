@@ -5,5 +5,6 @@ angular.module('curso',[
     'ngMessages',
     'toastr',
     'ui.grid',
-    'ngMaterial'
+    'ngMaterial',
+    'ui.router'
 ]); //declaração do module principal
